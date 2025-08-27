@@ -19,8 +19,5 @@ fastfetch
 eval $(thefuck --alias)
 
 path+=('/home/dylan/.cargo/bin')
-
-
-export PATH
-
+export PATH="$HOME/.emacs.d/bin:$PATH"
 alias l="ls -la"
