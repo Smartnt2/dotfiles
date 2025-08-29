@@ -20,4 +20,6 @@ eval $(thefuck --alias)
 
 path+=('/home/dylan/.cargo/bin')
 export PATH="$HOME/.emacs.d/bin:$PATH"
+
 alias l="ls -la"
+alias token="cat ~/gitToken | xclip"
