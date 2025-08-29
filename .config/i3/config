@@ -226,3 +226,6 @@ bindsym $mod+Shift+x exec --no-startup-id maim -o --select "/home/$USER/Pictures
 
 # Browser
 bindsym $mod+b exec --no-startup-id firefox
+
+# Emacs
+bindsym $mod+e exec --no-startup-id emacs
