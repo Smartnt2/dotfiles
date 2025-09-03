@@ -23,3 +23,5 @@ export PATH="$HOME/.emacs.d/bin:$PATH"
 
 alias l="ls -la"
 alias token="cat ~/gitToken | xclip"
+
+export PATH=$PATH:/home/dylan/.spicetify
