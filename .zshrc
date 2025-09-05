@@ -20,8 +20,7 @@ eval $(thefuck --alias)
 
 path+=('/home/dylan/.cargo/bin')
 export PATH="$HOME/.emacs.d/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 alias l="ls -la"
 alias token="cat ~/gitToken | xclip"
-
-export PATH=$PATH:/home/dylan/.spicetify
